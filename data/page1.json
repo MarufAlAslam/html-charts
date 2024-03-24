@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "name": "Baked Goods",
+    "protein": 3,
+    "fat": 9.411111111,
+    "carbs": 32,
+    "fibre": 1.124444444
+  },
+  {
+    "id": 2,
+    "name": "Beverages",
+    "protein": 0,
+    "fat": 0.6251,
+    "carbs": 16,
+    "fibre": 0
+  },
+  {
+    "id": 3,
+    "name": "Dairy",
+    "protein": 6,
+    "fat": 3.1,
+    "carbs": 12,
+    "fibre": 5
+  },
+  {
+    "id": 4,
+    "name": "Eggs",
+    "protein": 13,
+    "fat": 14,
+    "carbs": 6,
+    "fibre": 0
+  },
+  {
+    "id": 5,
+    "name": "Fast Foods",
+    "protein": 17,
+    "fat": 16,
+    "carbs": 28,
+    "fibre": 1.8
+  },
+  {
+    "id": 6,
+    "name": "Fats and Oil",
+    "protein": 0.05128205128,
+    "fat": 7,
+    "carbs": 1,
+    "fibre": 0
+  },
+  {
+    "id": 7,
+    "name": "Fish",
+    "protein": 16,
+    "fat": 4,
+    "carbs": 2,
+    "fibre": 0
+  },
+  {
+    "id": 8,
+    "name": "Fruit",
+    "protein": 0.6849315068,
+    "fat": 0.2191780822,
+    "carbs": 15,
+    "fibre": 1.469863014
+  },
+  {
+    "id": 9,
+    "name": "Grain/Cereal",
+    "protein": 4,
+    "fat": 2,
+    "carbs": 24,
+    "fibre": 2.3
+  },
+  {
+    "id": 10,
+    "name": "Legumes/Nuts",
+    "protein": 9,
+    "fat": 11,
+    "carbs": 14,
+    "fibre": 4.3
+  },
+  {
+    "id": 11,
+    "name": "Meat/Poultry",
+    "protein": 18,
+    "fat": 8,
+    "carbs": 0,
+    "fibre": 0
+  },
+  {
+    "id": 12,
+    "name": "Miscellaneous",
+    "protein": 1,
+    "fat": 0.7925925926,
+    "carbs": 4,
+    "fibre": 2
+  },
+  {
+    "id": 13,
+    "name": "Mixed Dishes",
+    "protein": 17,
+    "fat": 16,
+    "carbs": 30,
+    "fibre": 2.1
+  },
+  {
+    "id": 14,
+    "name": "Snacks",
+    "protein": 3,
+    "fat": 6.826086957,
+    "carbs": 15,
+    "fibre": 1.7
+  },
+  {
+    "id": 15,
+    "name": "Soups",
+    "protein": 7,
+    "fat": 4,
+    "carbs": 15,
+    "fibre": 1.66969697
+  },
+  {
+    "id": 16,
+    "name": "Sweets",
+    "protein": 2,
+    "fat": 5,
+    "carbs": 19,
+    "fibre": 0.6
+  },
+  {
+    "id": 17,
+    "name": "Vegetables",
+    "protein": 1.654867257,
+    "fat": 0.796460177,
+    "carbs": 8.398230088,
+    "fibre": 1.585840708
+  },
+  {}
+]
