@@ -1,0 +1,117 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.cormorant-garamond-light {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cormorant-garamond-medium {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cormorant-garamond-bold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* welcome */
+.welcome {
+    height: 100vh;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.left-image {
+    height: 100vh;
+    background: url(../img/home-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.text-link {
+    color: #31708E !important;
+    font-size: 15px;
+}
+
+.text-link.active {
+    font-weight: 800 !important;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.fs-55 {
+    font-size: 55px;
+}
+
+.learn-btn {
+    background-color: #8BC34A80;
+    color: #31708E;
+    text-decoration: underline;
+    margin-top: 30px;
+    border-radius: 0;
+    font-weight: 600;
+}
