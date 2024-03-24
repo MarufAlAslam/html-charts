@@ -147,3 +147,49 @@ html {
 .fs-14 {
     font-size: 14px;
 }
+
+.mobile-logo {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .left-image.p-4 {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .menus {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .fs-55 {
+        font-size: 35px;
+    }
+
+    .fs-30 {
+        font-size: 20px;
+    }
+
+    .welcome {
+        height: auto !important;
+    }
+
+    .right {
+        height: auto;
+        background-color: #fafafa;
+    }
+
+    .mt-200 {
+        margin-top: 100px;
+    }
+
+    iframe {
+        margin-bottom: 30px;
+    }
+}
