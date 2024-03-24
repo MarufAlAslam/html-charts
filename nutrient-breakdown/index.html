@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nutrabloom</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/fav.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- welcome screen -->
+    <section class="page-1">
+      <div class="container-fluid p-0">
+        <div class="p-4">
+          <div class="top-bar">
+            <div class="d-flex justify-content-end align-items-center gap-3">
+              <a href="../" class="text-link">Home</a>
+              <a href="../nutrient-compare/" class="text-link"
+                >Nutrient Compare</a
+              >
+              <a href="./" class="text-link active">Nutrient Breakdown</a>
+              <a href="../home-vs-store/" class="text-link">Home vs. Store</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="main p-4">
+          <h2 class="fs-45 cormorant-garamond-regular fw-600">
+            Nutrient Breakdown by <br />
+            Food Category
+          </h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <p>
+                Following are examples of the nutrient composition (%) of
+                various food categories, focusing on the breakdown of protein,
+                fat, carbs, and fiber. Examine how each food category compares
+                in terms of these essential nutrients per serving.
+                <span class="fs-10">
+                  Note: Each intake is based on a proportional serving size,
+                  specified in the excel 
+                </span>
+              </p>
+
+              <div class="row mt-4 g-4">
+                <div class="col-lg-6">
+                  <p class="text-center fw-semibold">High in fat</p>
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                      <p class="text-center">Fats and Oil</p>
+                      <div class="text-center"></div>
+                      <div id="fatsPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <p class="text-center fw-semibold">
+                    Equal parts of different nutrients
+                  </p>
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p class="text-center">Eggs</p>
+                      </div>
+                      <div id="eggsPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <p class="text-center fw-semibold">High in protein</p>
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Meat/Poultry</p>
+                      </div>
+                      <div id="meatsPie"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="mt-4">
+                These easy to read pie charts help you access information
+                quickly in the blink of an eye! This will help you better
+                approximate what foods categories to increase (or decrease!)
+                depending on your very own nutritional goals.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fs-30 cormorant-garamond-regular fw-600">
+                High in carbohydrates
+              </h2>
+
+              <div class="row mt-4 g-4">
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p class="fs-14">Grain/Cereal</p>
+                      </div>
+                      <div id="grainPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Dairy</p>
+                      </div>
+                      <div id="dairyPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Vegetables</p>
+                      </div>
+                      <div id="vegPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Fruit</p>
+                      </div>
+                      <div id="fruitPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Mixed Dishes</p>
+                      </div>
+                      <div id="dishPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Baked Goods</p>
+                      </div>
+                      <div id="bakedPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Beverages</p>
+                      </div>
+                      <div id="bevPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Soups</p>
+                      </div>
+                      <div id="soupsPie"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card h-100 border-0 rounded-0">
+                    <div class="card-body">
+                      <div class="text-center">
+                        <p>Fast Food</p>
+                      </div>
+                      <div id="fastPie"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- welcome screen -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- apex chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- app js -->
+    <script src="../js/pie.js"></script>
+  </body>
+</html>
