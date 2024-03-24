@@ -115,3 +115,23 @@ html {
     border-radius: 0;
     font-weight: 600;
 }
+
+
+/* page 1 */
+.page-1 {
+    background-color: #D1E7C7;
+    min-height: 100vh;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-10,
+.fs-10 * {
+    font-size: 10px;
+}
