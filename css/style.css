@@ -167,6 +167,23 @@ html {
 
 }
 
+.sidebar-link span {
+    position: absolute;
+    left: -300px;
+    width: 300px;
+    background: white;
+    z-index: 100;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    padding: 15px;
+    border-radius: 10px;
+    top: 0;
+    display: none;
+}
+
+.sidebar-link:hover span {
+    display: block;
+}
+
 @media screen and (max-width: 767px) {
     .left-image.p-4 {
         display: none;
@@ -214,5 +231,19 @@ html {
 
     .mob-rev {
         flex-direction: column-reverse;
+    }
+
+    .sidebar-link span {
+        position: unset;
+        left: -300px;
+        width: 300px;
+        background: transparent;
+        z-index: 100;
+        box-shadow: unset;
+        padding: 6px;
+        border-radius: 0;
+        top: 0;
+        display: inline;
+        text-align: left !important;
     }
 }
