@@ -152,6 +152,21 @@ html {
     display: none;
 }
 
+.fs-36 {
+    font-size: 36px;
+}
+
+.bg-ash-blue {
+    background-color: #C1E5F5;
+}
+
+.btn-ash-blue {
+    background-color: #C1E5F5;
+    color: #31708E;
+    border: 1px solid #31708E;
+
+}
+
 @media screen and (max-width: 767px) {
     .left-image.p-4 {
         display: none;
@@ -191,5 +206,13 @@ html {
 
     iframe {
         margin-bottom: 30px;
+    }
+
+    .mob-col {
+        flex-direction: column;
+    }
+
+    .mob-rev {
+        flex-direction: column-reverse;
     }
 }

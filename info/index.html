@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nutrabloom</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/fav.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <!-- welcome screen -->
+    <section class="bg-white">
+        <div class="container-fluid p-0">
+            <div class="p-4">
+                <div class="top-bar">
+                    <div class="d-flex mob-col justify-content-between align-items-center gap-3">
+                        <a href="../index.html">
+                            <img src="../img/logo.png" alt="Nutrabloom" class="img-fluid" />
+                        </a>
+                        <div class="d-flex menus justify-content-end align-items-center gap-3">
+                            <a href="../index.html" class="text-link">Home</a>
+                            <a href="../nutrient-compare/index.html" class="text-link">Nutrient Compare</a>
+                            <a href="./index.html" class="text-link">Nutrient Breakdown</a>
+                            <a href="../home-vs-store/index.html" class="text-link">Home vs. Store</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main p-4">
+                <div class="row g-5 mob-rev">
+                    <div class="col-lg-9">
+                        <div class="row g-5">
+                            <div class="col-lg-6">
+                                <h3 class="fs-36 cormorant-garamond-regular">Share Your Nutritional Insights</h3>
+                                <p>
+                                    We Value your feedback. Please share your thoughts and preferences to help use
+                                    further help you learn more
+                                </p>
+
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="">Full Name</label>
+                                        <input type="text" class="form-control mt-2 p-2 bg-ash-blue border-black"
+                                            name="" id="">
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label for="">Email</label>
+                                        <input type="email" class="form-control mt-2 p-2 bg-ash-blue border-black"
+                                            name="" id="">
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label for="">Nutritional Interests:</label>
+                                        <div class="d-flex mt-2 justify-content-start gap-4 align-items-center">
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="checkbox" name="interests" class="form-check  bg-ash-blue"
+                                                    id="i1">
+                                                <label for="i1">Protein</label>
+                                            </div>
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="checkbox" name="interests" class="form-check  bg-ash-blue"
+                                                    id="i2">
+                                                <label for="i2">Carbs</label>
+                                            </div>
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="checkbox" name="interests" class="form-check  bg-ash-blue"
+                                                    id="i3">
+                                                <label for="i3">Fats</label>
+                                            </div>
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="checkbox" name="interests" class="form-check  bg-ash-blue"
+                                                    id="i4">
+                                                <label for="i4">Fibers</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-4">
+                                        <label for="">Preferred Content Format:</label>
+                                        <div class="d-flex mt-2 justify-content-start gap-4 align-items-center">
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="radio" name="content" class="form-check  bg-ash-blue"
+                                                    id="c1">
+                                                <label for="c1">Article</label>
+                                            </div>
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="radio" name="content" class="form-check  bg-ash-blue"
+                                                    id="c2">
+                                                <label for="c2">Carbs</label>
+                                            </div>
+                                            <div class="item d-flex justify-content-start align-items-center gap-2">
+                                                <input type="radio" name="content" class="form-check  bg-ash-blue"
+                                                    id="c3">
+                                                <label for="c3">Infographics</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group align-items-center gap-4 mt-4">
+                                        <label for="">How did you find us?:</label>
+                                        <select name="" class="form-select bg-ash-blue border-black rounded" id="">
+                                            <option value="" selected disabled>
+                                                Select an Option
+                                            </option>
+                                            <option value="">
+                                                From a Friend
+                                            </option>
+                                            <option value="">
+                                                From Facebook
+                                            </option>
+                                            <option value="">
+                                                From Google
+                                            </option>
+                                            <option value="">
+                                                From Instagram
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <button class="btn btn-ash-blue fw-bold px-5">Submit</button>
+                                    </div>
+
+                                </form>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h3 class="fs-36 cormorant-garamond-regular">Learn More About Nutrition</h3>
+                                <p>
+                                    Follow these steps to gain a deeper understanding of how nutrients affect your
+                                    health:
+                                </p>
+
+                                <ol class="mt-5">
+                                    <li class="fw-bold">
+                                        Understanding Macronutrients:
+                                        <ul>
+                                            <li class="fw-normal">Learn the roles and benefits of proteins, carbs, and
+                                                fats in your diet.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        The Fiber Factor:
+                                        <ul>
+                                            <li class="fw-normal">Discover how dietary fiber impacts digestion and
+                                                overall health.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Micros Over Macros:
+                                        <ul>
+                                            <li class="fw-normal">Explore the importance of vitamins and minerals, the
+                                                so-called micronutrients.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Balancing the Diet:
+                                        <ul>
+                                            <li class="fw-normal">See how to balance different food groups for optimal
+                                                nutrition.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Reading Food Labels:
+                                        <ul>
+                                            <li class="fw-normal">Become skilled at interpreting food labels and
+                                                nutrient content charts.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Personalized Nutrition:
+                                        <ul>
+                                            <li class="fw-normal">Dive into how individual needs can shape your dietary
+                                                plan.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Nutrition and Lifestyle:
+                                        <ul>
+                                            <li class="fw-normal">Understand the connection between your diet and
+                                                lifestyle choices.</li>
+                                        </ul>
+                                    </li>
+                                    <li class="fw-bold">
+                                        Decoding Dietary Trends:
+                                        <ul>
+                                            <li class="fw-normal">Evaluate popular diets and their nutritional claims
+                                                critically.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 p-3 h-100">
+                        <div class="card rounded-0 h-100">
+                            <div class="card-body">
+                                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7589116/"
+                                    class="text-link text-decoration-none d-block mb-3" target="_blank">
+                                    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7589116/
+                                </a>
+                                <a href="https://www.healthline.com/health/food-nutrition/micros-vs-macros"
+                                    class="text-link text-decoration-none d-block mb-3" target="_blank">
+                                    https://www.healthline.com/health/food-nutrition/micros-vs-macros
+                                </a>
+                                <a href="https://medium.com/@miltontheknower/deciphering-diet-trends-a-dietitians-guide-to-identifying-fad-diets-54da75fe95ac"
+                                    class="text-link text-decoration-none d-block mb-3" target="_blank">
+                                    https://medium.com/@miltontheknower/deciphering-diet-trends-a-dietitians-guide-to-identifying-fad-diets-54da75fe95ac
+                                </a>
+                                <a href="https://www.cedars-sinai.org/blog/what-are-macronutrients.html#:~:text=%22Macros%22%20is%20short%20for%20macronutrients,carbs%2C%20fat%20and%20protein.%22"
+                                    class="text-link text-decoration-none d-block mb-3" target="_blank">
+                                    https://www.cedars-sinai.org/blog/what-are-macronutrients.html#:~:text=%22Macros%22%20is%20short%20for%20macronutrients,carbs%2C%20fat%20and%20protein.%22
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- welcome screen -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- apex chart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- app js -->
+    <script src="../js/pie.js"></script>
+</body>
+
+</html>
